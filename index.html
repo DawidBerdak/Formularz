@@ -1,0 +1,54 @@
+<hmtl lang="PL">
+    <head>
+        <title formularz do warszawy></title>
+        <meta charset="UTF-8">
+        <h1> Przykładowy formularz</h1>
+    </head>
+    <body style background="R.jpeg"; background-size: cover; background-repeat: no-repeat; background-position: center;>
+    
+    
+        <form action="/submit" method="post">
+    <label for="name">Imię:</label><br />
+    <input type="text" id="name" name="name"placeholder="np. Dawid" required /><br /><br />
+
+     <label for="name">Nazwisko:</label><br />
+    <input type="text" id="name" name="name" placeholder="np. Berdak" required /><br /><br />
+
+    <label for="birthdate">Data urodzenia:</label><br />
+<input type="date" id="birthdate" name="birthdate" required /><br /><br />
+
+     <label for="phone">Telefon:</label><br />
+    <input type="tel" id="phone" name="phone" placeholder="np. +48 123 456 789" required /><br /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email"placeholder="np. dawidberdak12345@" required /><br /><br />
+
+    <label for="message">Wiadomość:</label><br />
+    <textarea id="message" name="message" rows="5" cols="30"placeholder="np. Cześć" required></textarea><br /><br />
+    <label><input type="radio" name="gender" value="male" checked> Mężczyzna</label>
+    <label><input type="radio" name="gender" value="male"> Kobieta</label>
+    <label><input type="radio" name="gender" value="male"> Kosmita</label>
+    <label><input type="radio" name="gender" value="male"> Nie wiadomo</label> <br /><br />
+    <label><input type="checkbox" name="gender" value="male"> Pizza</label>
+    <label><input type="checkbox" name="gender" value="male"> Mc'Donalds</label>
+    <label><input type="checkbox" name="gender" value="male"> Kfc</label>
+    <label><input type="checkbox" name="gender" value="male"> Kebab</label>
+    <label><input type="checkbox" name="gender" value="male"> Burger</label> </br> </br>
+
+    <select name="Atrakcja">
+  <option value="Łaźienka">Łaźienka</option>
+  <option value="Pałac kultury">Pałac kultury</option>
+  <option value="Stadion Narodowy">Stadion Narodowy</option>
+  <option value="Muzeum">Muzeum</option> 
+</select> </br> </br>
+
+
+
+
+
+
+    <input type="reset" value="Wyczyść">
+    <input type="submit" value="Wyślij" />
+        </form>
+    </body>
+</hmtl>
